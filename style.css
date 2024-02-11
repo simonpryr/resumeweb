@@ -9,21 +9,20 @@ header {
   position: sticky;
   top: 0;
 }
-
+/* Styles the background color  */
 body {
   background-color: rgb(170, 170, 159);
 }
 
-
+/* Style section of Navigation Bar to make it user friendly, reference taken from: https://www.youtube.com/watch?v=wHFflWvii3M&list=LL&index=2  */
+/* Sets the background color and aligns the item inside the menu-bar class to the center  */
 .menu-bar {
   background-color: lightslategray;
   text-align: center;
 }
-
 .menu-bar ul {
   display: inline-flex;
   list-style: none;
-  color: white;
 }
 
 .menu-bar ul li {
@@ -31,13 +30,13 @@ body {
   margin: 8px;
   padding: 8px;
 }
-
+/* removes the list type and set the text type and color.  */
 .menu-bar ul li a {
   text-decoration: none;
   color: white;
   font-family: sans-serif;
 }
-
+/* Provides background color in the active page and sets the border radius  */
 .active,
 .menu-bar ul li:hover {
   background-color: rgb(211, 182, 182);
@@ -80,9 +79,7 @@ body {
     width: 300px;
  }
 }
-
-
-
+/*Styles the pp id  */
 #pp {
   padding: 50px 120px;
   display: flex;
